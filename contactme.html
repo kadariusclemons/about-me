@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kadarius Clemons</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>About Me</h1>
     <div class="topnav">
         <a class="active" href="index.html"> Home </a>
         \
@@ -17,9 +16,16 @@
         \
         <a href="contactme.html"> Contact Me </a>
       </div>
-    <h2>Kadarius Clemons</h2>
-    <h2>28</h2>
-    <img src="Assets/IMG_1929.jpg" alt="Young Me"><br>
-    <p>My name is Kadarius Clemons. I am 28 years old. I love dance, food, adventure, and coding.</p>
+    <h2>Contact Me</h2>
+    <form action="mailto:clemonskadarius@gmail.com" method="get" enctype="text/plain">
+        <p>Name:<br>
+        <input type="text" name="name"><br><br>
+        Email:<br>
+        <input type="email" name="email"><br><br>
+        Message:<br>
+        <textarea name="body" rows="5" cols="30"></textarea><br><br>
+        <input type="submit" value="Send">
+        </p>
+      </form>
 </body>
 </html>
